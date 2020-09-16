@@ -1,0 +1,50 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+* {
+  box-sizing: border-box;
+}
+
+.txt-wrap {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  transform: translateY(-80%);
+  margin: 0 auto;
+}
+#tit {
+  font-size: 40px;
+  font-style: italic;
+  color: #fff;
+  background: #000;
+  padding: 5px;
+}
+
+#pw {
+  width: 80%;
+  max-width: 500px;
+  min-height: 60px;
+  font-size: 30px;
+  font-weight: 800;
+  border-bottom: 2px solid #000;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#pw span {
+  font-size: 24px;
+  color: #999;
+  margin: 0 auto;
+}
+
+#btn {
+  display: block;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px auto 0;
+}
